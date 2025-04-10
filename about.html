@@ -1,0 +1,63 @@
+<!-- about.html --><!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos - FSS Kara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Faculté des Sciences de la Santé - Kara</h1>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="about.html" class="active">À propos</a>
+      <a href="departements.html">Départements</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="enseignants.html">Corps enseignant</a>
+      <a href="admission.html">Admission</a>
+    </nav>
+  </header>  <main class="main">
+    <section class="section">
+      <h2>Une Faculté tournée vers l'avenir</h2>
+      <p>Depuis sa création, la Faculté des Sciences de la Santé (FSS) de Kara s’impose comme un pilier de l’enseignement médical au Togo et en Afrique de l’Ouest. Engagée dans la formation de professionnels compétents, éthiques et innovants, la FSS offre un environnement propice à l’apprentissage, à la recherche et à l’engagement communautaire.</p>
+      <img src="https://images.unsplash.com/photo-1582719478148-d3f8f1c008b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Faculté de médecine moderne" class="full-img">
+    </section><section class="section">
+  <h2>Nos missions</h2>
+  <ul class="features-list">
+    <li><strong>Former</strong> les futurs médecins, infirmiers, sages-femmes et spécialistes en santé publique.</li>
+    <li><strong>Innover</strong> par la recherche biomédicale, les nouvelles technologies et la simulation clinique.</li>
+    <li><strong>Servir</strong> les communautés locales à travers des programmes de santé publique et de sensibilisation.</li>
+  </ul>
+</section>
+
+<section class="cards">
+  <h2>Nos piliers</h2>
+  <div class="card-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Recherche médicale" />
+      <h3>Recherche de pointe</h3>
+      <p>Des laboratoires actifs dans les domaines de la virologie, parasitologie, et innovation pharmaceutique.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603398938378-cfe3b43d91f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Formation pratique" />
+      <h3>Formation pratique</h3>
+      <p>Des stages dans les meilleurs hôpitaux partenaires du pays et à l'international.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1588776814546-ec7e4f7a14b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Engagement communautaire" />
+      <h3>Engagement social</h3>
+      <p>Des actions concrètes de prévention et de soins dans les zones rurales et défavorisées.</p>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer class="footer">
+    <p>&copy; 2025 Faculté des Sciences de la Santé - Université de Kara</p>
+    <button id="toggle-dark">Mode Sombre</button>
+  </footer>  <script>
+    document.getElementById('toggle-dark').addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script></body>
+</html>
