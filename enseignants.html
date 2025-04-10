@@ -1,0 +1,58 @@
+<!-- enseignants.html --><!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corps enseignant - FSS Kara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Faculté des Sciences de la Santé - Kara</h1>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="departements.html">Départements</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="enseignants.html" class="active">Corps enseignant</a>
+      <a href="admission.html">Admission</a>
+    </nav>
+  </header>  <main class="main">
+    <section class="section">
+      <h2>Notre corps professoral</h2>
+      <p>La FSS Kara s’appuie sur une équipe pédagogique expérimentée, passionnée par l’enseignement et la recherche médicale.</p>
+    </section><section class="cards">
+  <div class="card-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1621736332736-6f21a227cde2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Professeur de médecine">
+      <h3>Pr. Komlan T. Agbeko</h3>
+      <p>Chef du Département de Médecine Générale. Expert en maladies infectieuses et santé globale.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1584467735871-bc35c1fdda40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Professeur de pharmacie">
+      <h3>Dr. Aïssatou B. Sow</h3>
+      <p>Responsable des enseignements en pharmacologie clinique. Spécialiste des traitements innovants.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1614852208012-27a9414b5c43?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Professeur de santé publique">
+      <h3>Pr. Ernest K. Lawson</h3>
+      <p>Coordinateur du Département de Santé Publique. Référent OMS pour les politiques sanitaires en Afrique.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Vous souhaitez rejoindre notre équipe ?</h2>
+  <p>Nous recrutons régulièrement des enseignants et chercheurs. Envoyez-nous votre candidature !</p>
+  <a href="contact.html" class="btn-secondary">Postuler</a>
+</section>
+
+  </main>  <footer class="footer">
+    <p>&copy; 2025 Faculté des Sciences de la Santé - Université de Kara</p>
+    <button id="toggle-dark">Mode Sombre</button>
+  </footer>  <script>
+    document.getElementById('toggle-dark').addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script></body>
+</html>
