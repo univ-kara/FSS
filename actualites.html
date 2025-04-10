@@ -1,0 +1,58 @@
+<!-- actualites.html --><!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualités & Événements - FSS Kara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Faculté des Sciences de la Santé - Kara</h1>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="departements.html">Départements</a>
+      <a href="actualites.html" class="active">Actualités</a>
+      <a href="enseignants.html">Corps enseignant</a>
+      <a href="admission.html">Admission</a>
+    </nav>
+  </header>  <main class="main">
+    <section class="section">
+      <h2>Les dernières actualités</h2>
+      <p>Suivez les grands temps forts, projets innovants et événements scientifiques qui rythment la vie de la Faculté.</p>
+    </section><section class="cards">
+  <div class="card-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616077168079-6dfd62c58906?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Vaccination communautaire">
+      <h3>Campagne de vaccination rurale</h3>
+      <p>Nos étudiants en santé publique participent activement à la vaccination dans les zones reculées du pays.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1576765974601-75a2f7a1e6a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Conférence universitaire">
+      <h3>Colloque international sur la médecine tropicale</h3>
+      <p>Des experts du monde entier réunis à Kara pour discuter des enjeux sanitaires en Afrique subsaharienne.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1583912268181-b34f1d3ef356?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Simulations médicales">
+      <h3>Formation en simulation médicale</h3>
+      <p>Un nouveau centre de simulation est ouvert pour former les étudiants dans un cadre pratique et sécurisé.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Vous souhaitez organiser un événement ?</h2>
+  <p>La FSS Kara encourage les initiatives académiques et scientifiques. Contactez-nous pour proposer votre projet.</p>
+  <a href="contact.html" class="btn-secondary">Contacter l'administration</a>
+</section>
+
+  </main>  <footer class="footer">
+    <p>&copy; 2025 Faculté des Sciences de la Santé - Université de Kara</p>
+    <button id="toggle-dark">Mode Sombre</button>
+  </footer>  <script>
+    document.getElementById('toggle-dark').addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script></body>
+</html>
