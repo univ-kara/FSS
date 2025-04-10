@@ -1,0 +1,52 @@
+/* style.css */
+
+:root { --blue-light: #e0f0ff; --blue-dark: #004080; --green-accent: #2ecc71; --text-dark: #1c1c1c; --text-light: #f2f2f2; --bg-dark: #121212; --bg-light: #ffffff; --transition: all 0.3s ease-in-out; }
+
+body { font-family: 'Inter', sans-serif; margin: 0; background: var(--bg-light); color: var(--text-dark); transition: var(--transition); }
+
+body.dark { background: var(--bg-dark); color: var(--text-light); }
+
+header.header { background: var(--blue-dark); color: white; padding: 1.5rem 2rem; display: flex; flex-direction: column; align-items: center; }
+
+.logo { font-size: 1.8rem; font-weight: bold; text-align: center; }
+
+.navbar { margin-top: 1rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+
+.navbar a { color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 6px; transition: var(--transition); }
+
+.navbar a:hover, .navbar a.active { background-color: var(--green-accent); color: white; }
+
+.main { padding: 2rem 1rem; max-width: 1200px; margin: auto; }
+
+.section { text-align: center; margin-bottom: 2rem; }
+
+.cards .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; padding: 1rem 0; }
+
+.card { background: var(--blue-light); border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: var(--transition); }
+
+body.dark .card { background: #1e1e1e; box-shadow: 0 5px 15px rgba(255,255,255,0.05); }
+
+.card img { width: 100%; height: 180px; object-fit: cover; }
+
+.card h3 { font-size: 1.2rem; margin: 1rem; color: var(--blue-dark); }
+
+body.dark .card h3 { color: var(--green-accent); }
+
+.card p { font-size: 1rem; padding: 0 1rem 1rem; }
+
+.cta { text-align: center; margin: 3rem 0; background: var(--blue-light); padding: 2rem; border-radius: 16px; }
+
+body.dark .cta { background: #1b1b1b; }
+
+.btn-secondary { display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background-color: var(--green-accent); color: white; border: none; border-radius: 8px; text-decoration: none; transition: var(--transition); }
+
+.btn-secondary:hover { background-color: #28b463; }
+
+.footer { background: var(--blue-dark); color: white; text-align: center; padding: 1.5rem; margin-top: 3rem; position: relative; }
+
+.footer button { margin-top: 1rem; padding: 0.5rem 1rem; background: var(--green-accent); border: none; color: white; border-radius: 6px; cursor: pointer; transition: var(--transition); }
+
+.footer button:hover { background-color: #28b463; }
+
+@media (max-width: 768px) { .logo { font-size: 1.4rem; } .navbar { flex-direction: column; gap: 0.5rem; } }
+
